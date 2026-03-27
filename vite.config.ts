@@ -373,7 +373,7 @@ export default defineConfig(() => {
       handlebars({
         partialDirectory: resolve(__dirname, 'src/partials'),
         context: {
-          baseUrl: (process.env.BASE_URL || '/').replace(/\/?$/, '/'),
+          baseUrl: '/bentopdf/',
           simpleMode: process.env.SIMPLE_MODE === 'true',
           brandName: process.env.VITE_BRAND_NAME || '',
           brandLogo: process.env.VITE_BRAND_LOGO || '',
