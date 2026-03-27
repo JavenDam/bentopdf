@@ -367,7 +367,7 @@ export default defineConfig(() => {
   ];
 
   return {
-    base: (process.env.BASE_URL || '/').replace(/\/?$/, '/'),
+    base: '/bentopdf/',
     plugins: [
       // basicSsl(),
       handlebars({
