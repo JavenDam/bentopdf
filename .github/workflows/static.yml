@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  SIMPLE_MODE: 'false'
+  SIMPLE_MODE: 'true'
   BASE_URL: '/bentopdf/' 
   HUSKY: 0 
 
